@@ -6,6 +6,12 @@ import Button from "../elements/Button";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+import smoothscroll from "smoothscroll-polyfill";
+
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 const iconStyle = {
   margin: "auto",
@@ -79,18 +85,14 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                From iOS to React to Flutter to Rust and much, much more. I love
+                learning new skills wherever possible. Check out the links below
+                for my latest personal projects!
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button
-                    tag="a"
-                    color="primary"
-                    wideMobile
-                    href="https://cruip.com/"
-                  >
-                    <b>Work Showcase</b>
+                  <Button tag="a" color="primary" wideMobile href="#showcase">
+                    <AnchorLink href="#showcase">Work Showcase</AnchorLink>
                   </Button>
                   <Button
                     tag="a"

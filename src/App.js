@@ -13,9 +13,28 @@ import Home from "./views/Home";
 // Fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFileDownload,
+  faMobileAlt,
+  faDesktop,
+  faLaptop,
+  faCode,
+  faSyncAlt,
+  faCodeBranch,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faFileDownload);
+library.add(
+  fab,
+  faFileDownload,
+  faMobileAlt,
+  faDesktop,
+  faLaptop,
+  faCode,
+  faSyncAlt,
+  faCodeBranch,
+  faUser
+);
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
