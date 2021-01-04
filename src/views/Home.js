@@ -8,7 +8,7 @@ import Testimonial from "../components/sections/Testimonial";
 const Home = () => {
   return (
     <>
-      <Hero className="illustration-section-01" />
+      <Hero />
       <FeaturesTiles />
       <FeaturesSplit
         invertMobile

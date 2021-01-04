@@ -14,11 +14,6 @@
   z-index: -2;
 }
 
-// Hero illustration
-.illustration-section-01::after {
-  @include illustration("header-illus-01.svg", 100%, 400px, top);
-}
-
 // Features illustration 02
 .illustration-section-02::after {
   @include illustration(

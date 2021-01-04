@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Button from "../elements/Button";
 
 const iconStyle = {
   margin: "auto",
@@ -118,21 +119,30 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Button
+                        tag="a"
+                        color="dark"
+                        className="button button-light button-wide-mobile button-sm"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/bradley-windybank-9a9701194/"
+                        onClick={closeMenu}
+                      >
                         LinkedIn Profile
                         <FontAwesomeIcon
                           icon={["fab", "linkedin"]}
                           style={iconStyle}
                         />
-                      </Link>
+                      </Button>
                     </li>
                   </ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="#0"
+                          to="/files/testcv.pdf"
                           className="button button-primary button-wide-mobile button-sm"
+                          target="_blank"
+                          download
                           onClick={closeMenu}
                         >
                           Download CV

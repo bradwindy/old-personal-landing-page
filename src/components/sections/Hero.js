@@ -85,9 +85,9 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                From iOS to React to Flutter to Rust and much, much more. I love
-                learning new skills wherever possible. Check out the links below
-                for my latest personal projects!
+                From iOS to React, Flutter, and much, much more. I love learning
+                new skills wherever possible. Check out the links below for my
+                latest personal projects and examples of my professional work.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -98,7 +98,8 @@ const Hero = ({
                     tag="a"
                     color="dark"
                     wideMobile
-                    href="https://github.com/cruip/open-react-template/"
+                    target="_blank"
+                    href="https://github.com/bradwindy"
                   >
                     View My GitHub Profile
                     <FontAwesomeIcon

@@ -94,11 +94,36 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">Mobile Experience</h4>
                   <p className="m-0 text-sm">
                     My mobile experience primarily constists of native{" "}
-                    <LinkHover to="/somewhere">iOS</LinkHover> development.
-                    Alongside that I have also created several apps in both{" "}
-                    <LinkHover to="/somewhere"> Flutter</LinkHover> and{" "}
-                    <LinkHover to="/somewhere">React Native</LinkHover> and I am
-                    currently working on upskilling in native{" "}
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/MVVM-RxSwift-Sensor-App",
+                      }}
+                      target="_blank"
+                    >
+                      iOS
+                    </LinkHover>{" "}
+                    development. Alongside that I have also created several apps
+                    in both{" "}
+                    <LinkHover
+                      to={{
+                        pathname: "https://github.com/bradwindy/reminderplus",
+                      }}
+                      target="_blank"
+                    >
+                      {" "}
+                      Flutter
+                    </LinkHover>{" "}
+                    and{" "}
+                    <LinkHover
+                      to={{
+                        pathname: "https://github.com/bradwindy/rnimageproject",
+                      }}
+                      target="_blank"
+                    >
+                      React Native
+                    </LinkHover>{" "}
+                    and I am currently working on upskilling in native{" "}
                     <b style={highlight}> Android </b> development.
                   </p>
                 </div>
@@ -120,11 +145,37 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm">
                     I have experience with, and developed in such frameworks,
                     platforms, and languages as:{" "}
-                    <LinkHover to="/somewhere">React </LinkHover> and the{" "}
-                    <LinkHover to="/somewhere">MERN</LinkHover> stack,{" "}
-                    <LinkHover to="/somewhere">.NET</LinkHover>,
-                    <b style={highlight}> Docker</b>,
-                    <LinkHover to="/somewhere"> Angular</LinkHover> and much,
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/azure-multivm-webapp",
+                      }}
+                      target="_blank"
+                    >
+                      React{" "}
+                    </LinkHover>{" "}
+                    and the{" "}
+                    <LinkHover
+                      to={{
+                        pathname: "https://github.com/bradwindy/OneRoom",
+                      }}
+                      target="_blank"
+                    >
+                      MERN
+                    </LinkHover>{" "}
+                    stack,{" "}
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/azure-multivm-webapp",
+                      }}
+                      target="_blank"
+                    >
+                      Cloud VMs
+                    </LinkHover>
+                    , <LinkHover to="/somewhere">.NET</LinkHover>,
+                    <b style={highlight}> Docker</b>,{" "}
+                    <LinkHover to="/somewhere">Angular</LinkHover> and much,
                     much more!
                   </p>
                 </div>
