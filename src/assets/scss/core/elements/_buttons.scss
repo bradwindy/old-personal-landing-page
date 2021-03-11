@@ -102,15 +102,12 @@
 
 .button-primary {
   color: color(button-primary);
-  background-image: linear-gradient(to bottom right, #0b89e2 0%, #16d5f7 100%);
+  background-color: color-bg(button-primary);
   border-color: color-border(button-primary);
 
   &:hover {
-    background-image: linear-gradient(
-      to bottom right,
-      #2c91da 0%,
-      #36dbf8 100%
-    );
+    background-color: color-bg(button-primary-hover);
+    border-color: color-border(button-primary-hover);
   }
 
   &.is-loading {

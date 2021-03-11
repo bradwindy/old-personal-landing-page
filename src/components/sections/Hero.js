@@ -91,7 +91,12 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#showcase">
+                  <Button
+                    tag="a"
+                    wideMobile
+                    href="#showcase"
+                    className="button button-primary"
+                  >
                     <AnchorLink href="#showcase">Work Showcase</AnchorLink>
                   </Button>
                   <Button

@@ -71,6 +71,25 @@ const Testimonial = ({
               </div>
             </div>
 
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    I am currently working on refreshing my machine learning
+                    knowledge with Tensor Flow and Python to later apply in
+                    further projects.
+                  </p>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    Machine Learning
+                  </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">Python + TF</span>
+                </div>
+              </div>
+            </div>
+
             <div
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"

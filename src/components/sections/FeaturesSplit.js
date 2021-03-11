@@ -68,13 +68,14 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Trade Me iOS App
                 </div>
-                <h3 className="mt-0 mb-12">Motors Home Screen</h3>
+                <h3 className="mt-0 mb-12">Property and Motors Home Screens</h3>
                 <p className="m-0">
-                  At Trade Me we wanted a central place to host motors specific
-                  content in the iOS app that could also be used to show
-                  personalised content for users. Through the use of Firebase
-                  remote config instead of an API for quicker delivery, we were
-                  able to achieve this. An interesting challenge indeed!
+                  At Trade Me, we wanted a central place to host motors and
+                  motors specific content in the iOS app that could also be used
+                  to show personalised content for users. We used Firebase
+                  remote config to power the content displayed, instead of an
+                  API, for quicker delivery. An interesting and unique challenge
+                  indeed.
                 </p>
               </div>
               <div
@@ -85,7 +86,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-01.png")}
+                  src={require("./../../assets/images/homescreen1.jpg")}
                   alt="Features split 01"
                   width={528}
                   height={396}
@@ -118,7 +119,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-02.png")}
+                  src={require("./../../assets/images/ds.jpg")}
                   alt="Features split 02"
                   width={528}
                   height={396}
@@ -150,7 +151,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-03.png")}
+                  src={require("./../../assets/images/rp.jpg")}
                   alt="Features split 03"
                   width={528}
                   height={396}
@@ -182,7 +183,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-03.png")}
+                  src={require("./../../assets/images/or.jpg")}
                   alt="Features split 03"
                   width={528}
                   height={396}
@@ -214,7 +215,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-03.png")}
+                  src={require("./../../assets/images/server.png")}
                   alt="Features split 03"
                   width={528}
                   height={396}

@@ -45,22 +45,22 @@ const FeaturesTiles = ({
   );
 
   const highlight = {
-    color: "#aeefff",
+    color: "#A7DAD9",
   };
 
   const LinkHover = styled(Link)`
-    color: #aeefff;
+    color: #a7dad9;
     font-weight: bold;
     line-height: 14px;
     text-decoration: underline;
 
     &:link {
-      color: #aeefff;
+      color: #a7dad9;
       text-decoration: underline;
     }
 
     &:visited {
-      color: #aeefff;
+      color: #a7dad9;
       text-decoration: underline;
     }
 
@@ -141,14 +141,14 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Web Experience</h4>
+                  <h4 className="mt-0 mb-8">Full Stack Experience</h4>
                   <p className="m-0 text-sm">
                     I have experience with, and developed in such frameworks,
                     platforms, and languages as:{" "}
                     <LinkHover
                       to={{
                         pathname:
-                          "https://github.com/bradwindy/azure-multivm-webapp",
+                          "https://github.com/bradwindy/personal-landing-page",
                       }}
                       target="_blank"
                     >
@@ -173,10 +173,27 @@ const FeaturesTiles = ({
                     >
                       Cloud VMs
                     </LinkHover>
-                    , <LinkHover to="/somewhere">.NET</LinkHover>,
-                    <b style={highlight}> Docker</b>,{" "}
-                    <LinkHover to="/somewhere">Angular</LinkHover> and much,
-                    much more!
+                    ,{" "}
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/nzmsa-project-p2-api",
+                      }}
+                      target="_blank"
+                    >
+                      .NET
+                    </LinkHover>
+                    ,<b style={highlight}> Docker</b>,{" "}
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/angular-course-proj",
+                      }}
+                      target="_blank"
+                    >
+                      Angular
+                    </LinkHover>{" "}
+                    and much, much more!
                   </p>
                 </div>
               </div>
@@ -195,13 +212,38 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Other Development Experience</h4>
                   <p className="m-0 text-sm">
-                    I am currently working on creating my own operating system
-                    in <LinkHover to="/somewhere">Rust</LinkHover>. Throughout
-                    university I also worked on several machine learning
-                    projects in
-                    <b style={highlight}> Python</b>, did data analysis in
-                    <b style={highlight}> R</b>, and worked with{" "}
-                    <LinkHover to="/somewhere">Java</LinkHover> and
+                    I am currently working on refreshing my{" "}
+                    <LinkHover
+                      to={{
+                        pathname: "https://github.com/bradwindy/TFLearnings",
+                      }}
+                      target="_blank"
+                    >
+                      ML
+                    </LinkHover>{" "}
+                    knowledge, and creating my own operating system in{" "}
+                    <LinkHover
+                      to={{
+                        pathname: "https://github.com/bradwindy/brad_os",
+                      }}
+                      target="_blank"
+                    >
+                      Rust
+                    </LinkHover>
+                    . Throughout university I also worked on several projects
+                    using
+                    <b style={highlight}> Python</b>,<b style={highlight}> R</b>
+                    , and{" "}
+                    <LinkHover
+                      to={{
+                        pathname:
+                          "https://github.com/bradwindy/shoppingCartProject",
+                      }}
+                      target="_blank"
+                    >
+                      Java
+                    </LinkHover>{" "}
+                    and
                     <b style={highlight}> C </b> too.
                   </p>
                 </div>
